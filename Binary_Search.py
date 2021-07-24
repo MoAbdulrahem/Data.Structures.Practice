@@ -22,6 +22,9 @@ def binary_search(items_list,item):
             start = mid +1
     return None
 
+# Testing
+
+import random
 
 def test_binary_search(test_list,no_of_tries,test_range):
     for i in range(no_of_tries):
